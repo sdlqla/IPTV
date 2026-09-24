@@ -5,7 +5,7 @@
 
 # ── IP 优先级 ───────────────────────────────────────────────────────
 # "ipv6" = IPv6 地址优先排在前面；"ipv4" = IPv4 优先
-ip_version_priority = "ipv6"
+ip_version_priority = "ipv4"
 
 # ── 源优先级 ────────────────────────────────────────────────────────
 # "hotel" = 酒店源优先排在前面；"subscription" = 订阅源优先
@@ -18,7 +18,7 @@ max_lines_per_channel = 8
 # 每个 URL 都是一个 IPTV 直播源文件（支持 m3u 或 txt 格式）
 # main.py 会依次请求这些地址，提取频道名和播放地址
 # 注：被注释掉的源暂时停用，可取消注释启用
-source_urls = [
+source_urls = ["https://live.776512.xyz"
     
 ]
 
