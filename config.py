@@ -9,7 +9,7 @@ ip_version_priority = "ipv4"
 
 # ── 源优先级 ────────────────────────────────────────────────────────
 # "hotel" = 酒店源优先排在前面；"subscription" = 订阅源优先
-source_priority = "hotel"
+source_priority = "subscription"
 
 # 每频道最大线路数，0 = 不限制
 max_lines_per_channel = 8
@@ -30,7 +30,7 @@ source_urls = ["https://live.776512.xyz"
 #                      "Alibaba Cloud", "Tencent" 等
 hotel_config = {
     "hotel_api": "",
-    "enabled": True,
+    "enabled": False,
     "allowed_orgs": ["China Mobile","Alibaba Cloud"],
 }
 
